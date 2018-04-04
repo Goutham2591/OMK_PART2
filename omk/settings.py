@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
-import dj_database_url
+# import dj_database_url
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     'home',
     'django.contrib.admin',
     'social_django',
+ 'social.apps.django_app.default',
 ]
 
 MIDDLEWARE = [
@@ -97,14 +98,15 @@ WSGI_APPLICATION = 'omk.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd1csf26c8gfpif',
-        'USER': 'jcouimvnchyfxn',
-        'PASSWORD': '01315ddb191257e903cb3e718f65d66e40b97f111985bb91ef1261c2ac1e51ac',
-        'HOST': 'ec2-50-19-113-219.compute-1.amazonaws.com',
-        'PORT': '5432',
-       #'ENGINE': 'django.db.backends.sqlite3',
-       #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'ENGINE': 'django.db.backends.postgresql',
+        #  'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        # 'NAME': 'd1csf26c8gfpif',
+        # 'USER': 'jcouimvnchyfxn',
+        # 'PASSWORD': '01315ddb191257e903cb3e718f65d66e40b97f111985bb91ef1261c2ac1e51ac',
+        # 'HOST': 'ec2-50-19-113-219.compute-1.amazonaws.com',
+        # 'PORT': '5432',
+       'ENGINE': 'django.db.backends.sqlite3',
+       'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
@@ -176,8 +178,8 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 
 # Update database configuration with $DATABASE_URL.
-db_from_env = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(db_from_env)
+# db_from_env = dj_database_url.config(conn_max_age=500)
+# DATABASES['default'].update(db_from_env)
 
 #Social auth
 AUTHENTICATION_BACKENDS = (
