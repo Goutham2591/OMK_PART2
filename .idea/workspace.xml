@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="881d41a2-f868-47c0-8814-61f003dd6867" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/OMK.iml" afterPath="$PROJECT_DIR$/.idea/OMK.iml" />
-      <change beforePath="$PROJECT_DIR$/home/templates/home/createappointments.html" afterPath="$PROJECT_DIR$/home/templates/home/createappointments.html" />
-      <change beforePath="$PROJECT_DIR$/home/templates/home/empindex.html" afterPath="$PROJECT_DIR$/home/templates/home/empindex.html" />
-      <change beforePath="$PROJECT_DIR$/home/templates/home/index.html" afterPath="$PROJECT_DIR$/home/templates/home/index.html" />
       <change beforePath="$PROJECT_DIR$/omk/settings.py" afterPath="$PROJECT_DIR$/omk/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,12 +86,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mentor.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mentor.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/templates/home/mentor.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/omk/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
+              <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+              <folding>
+                <element signature="e#307#316#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,7 +144,7 @@
         <entry file="file://$PROJECT_DIR$/home/templates/home/createappointments.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
               </folding>
@@ -149,16 +157,6 @@
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/templates/home/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -263,11 +261,11 @@
         <option value="$PROJECT_DIR$/home/templates/home/about.html" />
         <option value="$PROJECT_DIR$/home/templates/home/donate.html" />
         <option value="$PROJECT_DIR$/home/templates/home/thankyou.html" />
-        <option value="$PROJECT_DIR$/omk/settings.py" />
         <option value="$PROJECT_DIR$/quickstart.py" />
         <option value="$PROJECT_DIR$/home/templates/home/index.html" />
         <option value="$PROJECT_DIR$/home/templates/home/empindex.html" />
         <option value="$PROJECT_DIR$/home/templates/home/createappointments.html" />
+        <option value="$PROJECT_DIR$/omk/settings.py" />
       </list>
     </option>
   </component>
@@ -277,7 +275,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1214" />
     <option name="y" value="461" />
     <option name="width" value="1382" />
@@ -573,7 +571,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="3232" height="1732" extended-state="7" />
+    <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -846,14 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/omk/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="102" column="33" lean-forward="false" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/fe75d5e1/1f1a724b-8c6d-4f14-bf84-b5390f7ffc63/d1csf26c8gfpif.public.auth_user_groups">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -929,7 +919,7 @@
         <state relative-caret-position="3567">
           <caret line="262" column="27" lean-forward="false" selection-start-line="262" selection-start-column="27" selection-end-line="262" selection-end-column="27" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -995,7 +985,7 @@
     <entry file="file://$PROJECT_DIR$/home/templates/home/createappointments.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
           </folding>
@@ -1014,6 +1004,16 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omk/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+          <folding>
+            <element signature="e#307#316#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
